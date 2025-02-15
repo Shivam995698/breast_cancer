@@ -44,11 +44,10 @@ Each model was trained and tested, and their accuracy was compared to identify t
 
 | Model          | Accuracy (%) |  
 |---------------|-------------|  
-| Decision Tree | XX.XX%      |  
-| Random Forest | XX.XX%      |  
-| SVM           | XX.XX%      |  
-| Kernel SVM    | XX.XX%      |  
-| Naïve Bayes   | XX.XX%      |  
+| Decision Tree | 93%      |  
+| Random Forest | 96%      |  
+| SVM           | 98%      |  
+| Naïve Bayes   | 95%      |  
 
 ### **Results & Insights**  
 - The **Random Forest model** provided the highest accuracy due to its ensemble learning approach.  
