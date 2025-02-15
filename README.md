@@ -35,9 +35,8 @@ The goal of this project is to develop and evaluate **Decision Tree, Random Fore
 ### **Machine Learning Models Used**  
 1. **Decision Tree**  
 2. **Random Forest**  
-3. **Support Vector Machine (SVM)**  
-4. **Kernel SVM**  
-5. **Naïve Bayes**  
+3. **Support Vector Machine (SVM)**   
+4. **Naïve Bayes**  
 
 ### **Model Performance Comparison**  
 Each model was trained and tested, and their accuracy was compared to identify the most effective classifier.  
@@ -50,9 +49,17 @@ Each model was trained and tested, and their accuracy was compared to identify t
 | Naïve Bayes   | 95%      |  
 
 ### **Results & Insights**  
-- The **Random Forest model** provided the highest accuracy due to its ensemble learning approach.  
-- **SVM and Kernel SVM** performed well, particularly in handling complex decision boundaries.  
-- **Naïve Bayes** was the fastest but had lower accuracy compared to other models.  
+Support Vector Machines (SVM) often achieve high accuracy .
+
+-> Handles Complex Data: SVMs work well with high-dimensional data (many features) and can separate classes effectively.
+
+-> Reduces Overfitting: By focusing on the best boundary (hyperplane) with maximum margin, SVMs avoid overfitting.
+
+-> Kernel Trick: This allows SVMs to handle non-linear relationships by transforming data into higher dimensions.
+
+-> Maximizes Margin: Ensures the boundary is far from data points, improving generalization to new data.
+
+-> Regularization: Controls the balance between fitting the training data and keeping the model simple.
 
 ### **How to Run the Project**  
 1. Clone the repository:  
